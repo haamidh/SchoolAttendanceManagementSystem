@@ -1,0 +1,29 @@
+/* Bootstrap overrides for customization */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.header, .marketing, .footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-brand, .navbar .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+}
